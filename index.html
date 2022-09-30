@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Avo</title>
+        
+        <!--AOS cs1-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!--fontawesome css1-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--bootstrap css1 js1-->
+       
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+        <!--jquery ui css1 js1-->
+        <link href="./libs/jquery-ui-1.13.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+
+        <!--Swipper css1 js1-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   
+        <!--Custom Css-->
+        <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        <div class="cursor"></div>
+         <div id="progress">
+            <span id="progressbar"><a href="#upper"><i class="fas fa-angle-up"></i></a></span>
+         </div>
+
+        <!--Start Header Section-->
+          
+            <!--Start Navbar Section-->
+             <nav id="upper" class="row justify-content-between fixed-top p-4">
+                <a href="#" class="navbar-brand text-light fs-1 fw-bold ms-4">avo</a>
+
+                <div class="actions">
+                    
+                        <div class="menubuttons">
+                            <div class="bg-light lines1"></div>
+                            <div class="bg-light lines2"></div>
+                            <div class="bg-light lines3"></div>
+                        </div>
+                    
+                    <div class="box">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Showcase</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Pofolio</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                            <li><a href="#" data-bs-target="#modalactive" data-bs-toggle="modal"><i class="fas fa-search"></i></a></li>
+                            <li style="background:red;border-radius:5px;" class="text-center">
+                                <span class="color1"></span>
+                                <span class="color2 mx-3"></span>
+                                <span class="color3"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+             </nav>
+            <!--End Navbar Section-->
+          
+        <!--End Header Section-->
+
+          <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+           <div class="swipercus text-light">
+            <h1 class="text-uppercase">Digital <br/>Design Awards</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Sint quia modi amet <br/>perspiciatis eum fugiat ullam iure, </p>
+            <a href="#" class="links">Look More</a>
+           </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swipercus text-light">
+                <h1 class="text-uppercase">Original Solutions</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia modi<br/>  amet perspiciatis eum fugiat ullam iure, </p>
+                <a href="#" class="links">Look More</a>
+               </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swipercus text-light">
+                <h1 class="text-uppercase">Unique <br/>Brand Stories</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia modi<br/>  amet perspiciatis eum fugiat ullam iure, </p>
+                <a href="#" class="links">Look More</a>
+               </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+
+      <!--Start Agency Section-->
+      <section class="py-5 agencys">
+       <div class="container-fluid px-4 py-5">
+         
+        <div class="row">
+            
+            <div class="col-lg-6 col-md-10 mx-auto">
+                <div class="agencyimg">
+                    <div class="agency-alpha" data-aos="zoom-in">
+                        <img src="https://avo-alpha.vercel.app/img/intro/1.jpg" />
+                    </div>
+                    <div class="agency-alpha"data-aos="zoom-out-up">
+                        <img src="https://images.pexels.com/photos/7610458/pexels-photo-7610458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                    </div>
+                    <div class="agency-alpha"data-aos="zoom-out">
+                        <img src="https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-light mx-auto">
+                <h5>AboutUs</h5>
+                <h1 class="fw-bold mb-4" data-aos="zoom-in">We are more than just<br/> a digital agency</h1>
+                <p class="mb-4"data-aos="zoom-out">We are avo We create award-wining websites, remarkable brand and cutting-edge apps.Nullam imperdiet , sem at fringilla lobortis,sem nibh fringilla nibh,id gravida mi purus sit amet erat.Ut dictum nisi masvitp</p>
+                <div class="row justify-content-start mx-3">
+                    <div class="col-md-12 text-center mx-auto mb-3 digitals" data-aos="zoom-in-up">
+                        <h4 class="mb-4"><i class="fas fa-bolt" style="color:#21e6c1;"></i></h4>
+                        <p class="text-uppercase">Pexel<br/>Perfect</p>
+                    </div>
+                    <div class="col-md-5 text-center mx-auto mb-3 digitals" data-aos="zoom-in-up">
+                        <h4 class="mb-4"><i class="fas fa-fill" style="color:#21e6c1;"></i></h4>
+                        <p class="text-uppercase">Creative<br/>Design</p>
+                    </div>
+                    <div class="col-md-5 text-center mx-auto mb-3 digitals" data-aos="zoom-in-up">
+                        <h4 class="mb-4"><i class="far fa-lightbulb" style="color:#21e6c1;"></i></h4>
+                        <p class="text-uppercase fs-md-5">Heigh<br/>Perfomance</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+       </div>
+      </section>
+       <!--End Agency Section-->
+       
+       <!--Start Service Section-->
+        <section class="py-5 services">
+            <div class="container-fluid">
+
+                <div class="col text-center mb-5">
+                    <h5 class="text-uppercase fw-light">Best Features</h5>
+                    <h1 class="text-uppercase text-light">Services</h1>
+                </div>
+
+                <div class="row gx-0 gy-0">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto" data-aos="zoom-in">
+                        <div class="service-bests">
+                            <img src="https://images.pexels.com/photos/8872192/pexels-photo-8872192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid"/>
+                        
+                        <div class="features text-white">
+                            <h4 class="text-capitalize">Best of <br/> our feature</h4>
+                            <a href="#" class="links">See All Services</a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto designs" data-aos="zoom-in">
+                     <div class="text-light text-center">
+                        <p><i class="fas fa-tv fs-1" style="color:#21e6c1;"></i></p>
+                        <h4 class="my-4">Graphic Design</h4>
+                        <p> dicta soluta sunt magni quo fugit, odit iusto temporibus.
+                        </p>
+                     </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto designs" data-aos="zoom-in">
+                        <div class="text-light text-center">
+                            <p><i class="fas fa-mobile fs-1" style="color:#21e6c1;"></i></p>
+                            <h4 class="my-4">Web &<br/>Mobile Design</h4>
+                            <p> dicta soluta sunt magni quo fugit, odit iusto temporibus.
+                            </p>
+                         </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto designs" data-aos="zoom-in">
+                        <div class="text-light text-center">
+                            <p><i class="fas fa-money-check fs-1" style="color:#21e6c1;"></i></p>
+                            <h4 class="my-4">Social<br/>Media Marketing</h4>
+                            <p> dicta soluta sunt magni quo fugit, odit iusto temporibus.
+                            </p>
+                         </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--End Service Section-->
+
+        <!--Start Details Section-->
+        <section class="py-5 details">
+            <div class="container">
+                <div class="row text-center text-light">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mx-auto" data-aos="zoom-in">
+                        <div class="infos smile">
+                            <h3 class="py-4">2400</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mx-auto" data-aos="zoom-in">
+                        <div class="infos project">
+                            <h3 class="py-4">133</h3>
+                            <p>Compleate Project</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mx-auto" data-aos="zoom-in">
+                        <div class="infos file">
+                            <h3  class="py-4">254 K</h3>
+                            <p>File Downloaded</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mx-auto" data-aos="zoom-in">
+                        <div class="infos award">
+                            <h3 class="py-4">46</h3>
+                            <p>Award Win</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--End Details Section-->
+
+        <!--Start slide Section-->
+        <section class="py-5 slides">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselcustome" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in-up">
+                           
+                            <div class="carousel-inner">
+                                <div class="carousel-item text-center active mb-5">
+                                    <img src="https://images.pexels.com/photos/9002742/pexels-photo-9002742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid"/>
+                                    <h5 class="text-uppercase my-3">Art & Illustration</h5>
+                                    <h4 class="text-light">Natural Plus Moderan</h4>
+                                </div>
+
+                                <div class="carousel-item text-center mb-5">
+                                    <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid"/>
+                                    <h5 class="text-uppercase my-3">Art & Illustration</h5>
+                                    <h4 class="text-light">Inspiring New Space</h4>
+                                </div>
+
+                                <div class="carousel-item text-center mb-5">
+                                    <img src="https://images.pexels.com/photos/159644/art-supplies-brushes-rulers-scissors-159644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid"/>
+                                    <h5 class="text-uppercase my-3">Art & Illustration</h5>
+                                    <h4 class="text-light">Innovation and Crafts</h4>
+                                </div>
+
+                                <div class="carousel-item text-center mb-5">
+                                    <img src="https://images.pexels.com/photos/11968627/pexels-photo-11968627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid"/>
+                                    <h5 class="text-uppercase my-3">Art & Illustration</h5>
+                                    <h4 class="text-light">Natural Plus Modarn</h4>
+                                </div>
+                            </div>
+
+                            <button type="button" class="carousel-control-prev" data-bs-target="#carouselcustome" data-bs-slide="perv">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden"></span>
+                            </button>
+
+                            <button type="button" class="carousel-control-next" data-bs-target="#carouselcustome" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visual-hidden"></span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Ourblog Section-->
+
+        <!--Start Clients Section-->
+        <section class="py-5 mb-5 clients">
+         <div class="container-fluid">
+            <div class="row py-4 px-4">
+                <div class="col-lg-6 col-md-10 col-sm-12 mx-auto mb-5">
+                    <div class="plays" data-bs-target="#modalvideo" data-bs-toggle="modal" data-aos="zoom-in-up">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <h1 class="fw-bold text-light mt-5" data-aos="zoom-in-down">So that's us. There's no<br/> other way to put it.</h1>
+                </div>
+
+                <div class="col-lg-6 col-md-10 col-sm-12 mx-auto mb-5 py-5 client-says" data-aos="zoom-in-up">
+                    <h5 class="fw-light text-uppercase">Our Clients</h5>
+                    <h2 class="fw-bold mb-3">What Client's Say?</h2>
+                    <p class="lead py-4"> Qui aspernatur illo unde sit libero corporis accusantium dignissimos molestiae sapiente id. Asperiores consequatur praesentium voluptatem.</p>
+                    <div class="d-flex justify-conetnt-start mt-5">
+                        <div>
+                            <img src="https://images.indianexpress.com/2022/01/ashneer-grover-bharatpe-linkedin-1200.jpeg" width="70px" height="70px" class="rounded-circle" />
+                        </div>
+                        <div class="ms-3 mt-3">
+                            <h6 class="text-uppercase fw-bold">Alex Regelman</h6>
+                            <p class="text-uppercase fw-light fs-6">Co-Founder Colabrio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </section>
+        <!--End Clients Section-->
+
+        <!--Start Progresscircle Section-->
+         <section class="py-2 progresss">
+            <div class="container-fluid">
+                <div class="row px-4">
+                    <div class="col-lg-6 col-md-10 col-sm-12 ms-md-start skill-circles">
+                        <div class="d-md-flex gap-5 text-center">
+
+                            <div class="skill1 d-flex justify-content-md-center align-items-center mb-5">
+                                <div class="skill me-4">
+                                    <div id="number">90%</div>
+                                          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                        <defs>
+                                           <linearGradient id="GradientColor">
+                                              <stop offset="0%" stop-color="#e91e63" />
+                                              <stop offset="100%" stop-color="#673ab7" />
+                                           </linearGradient>
+                                        </defs>
+                                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+
+                                <div class="text-start">
+                                    <span class="text-light text-start">Project</span>
+                                    <h4 class="text-light">Consulting</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="skill2 d-flex justify-content-md-center align-items-center mb-5">
+                                <div class="skill-app me-4">
+                                    <div id="numberapp" onclick="refresh()">75%</div>
+                                          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                        <defs>
+                                           <linearGradient id="GradientColor">
+                                              <stop offset="0%" stop-color="#e91e63" />
+                                              <stop offset="100%" stop-color="#673ab7" />
+                                           </linearGradient>
+                                        </defs>
+                                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+
+                                <div class="text-start">
+                                    <span class="text-light text-start">APP</span>
+                                    <h4 class="text-light">Development</h4>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!--End Progresscircle Section-->
+
+
+        <!--Start Ourclient Section-->
+        <section class="ourclients py-5"> 
+          <div class="container">
+            <div class="row py-4">
+                <div class="col-lg-4 col-md-10 col-sm-12 mx-auto mb-4 clienttexts" data-aos="zoom-out">
+                    <p class="ourtitles">Clients</p>
+                    <h1 class="text-light fw-bold">Our Clients</h1>
+                </div>
+                <div class="col-lg-8 col-md-12 mx-auto">
+
+                    <div class="d-flex flex-wrap justify-content-center gap-4 mb-4" data-aos="zoom-in">
+                        <div class="clientlogos">
+                            <img src="http://assets.stickpng.com/images/585990234f6ae202fedf28cf.png" width="50px" />
+                        </div>
+                        <div class="clientlogos">
+                            <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" width="50px" />
+                        </div>
+                        <div class="clientlogos">
+                            <img src="https://cdn.freebiesupply.com/images/large/2x/nestle-logo-png-transparent.png" width="100px" />
+                        </div>
+                        <div class="clientlogos">
+                            <img src="https://download.blender.org/branding/blender_logo.png" width="100px" />
+                        </div>
+                    
+                        <div class="clientlogos">
+                            <img src="https://images.vexels.com/media/users/3/224223/isolated/preview/6046170fe2b26994b8c4af57c99b6552-love-for-travel-logo.png" width="50px" />
+                        </div>
+                        <div class="clientlogos">
+                            <img src="https://www.criteo.com/wp-content/uploads/2020/11/ss-logo-Gradeup.png" width="50px" />
+                        </div>
+                        <div class="clientlogos">
+                            <img src="https://www.pngall.com/wp-content/uploads/8/Reebok-Logo-PNG-Download-Image.png" width="50px" />
+                        </div>
+                        <div class="clientlogos">
+                            <img src="https://static.skyassets.com/contentstack/assets/bltdc2476c7b6b194dd/blt60b2d631fdc493bf/605083db32845c7ca164859d/NOW_Logo_Solid_Gradient_131x42mm_RGB-1.png" width="50px" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+          </div>
+        </section>
+        <!--End Ourclient Section-->
+
+        <!--Start Ourblog Section-->
+        <section class="py-5 ourblogs">
+          <div class="container">
+            <div class="row mb-5">
+                <div class="col text-center text-light watermarks">
+                    <p class="ourtitles">Latest News</p>
+                    <h1 class="fw-bold text-uppercase usblogs">Our Blogs.</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+
+                  <div class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                          <div class="d-flex">
+                            <div data-aos="zoom-in">
+                                <img src="https://avo-alpha.vercel.app/img/blog/single.jpg" width="600px" height="400px"/>
+                              </div>
+                              <div class="text-light bg-dark p-5 blog-guides">
+                                <ul class="list-inline d-flex justify-content-between" data-aos="zoom-out">
+                                  <li>By / Admin</li>
+                                  <li>07 <small>AUG</small></li>
+                                </ul>
+                                <p class="text-capitalize" data-aos="zoom-out">The start-up ultimate guide to make your wordpress journel</p>
+                                <a href="#" class="nav-link text-uppercase" data-aos="zoom-in-up"><span class="d-inline-block bg-info px-1">Read</span><span> More</span></a>
+                              </div>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <div data-aos="zoom-in">
+                                    <img src="https://images.pexels.com/photos/533424/pexels-photo-533424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="600px" height="400px"/>
+                                  </div>
+                                  <div class="text-light bg-dark p-5 blog-guides">
+                                    <ul class="list-inline d-flex justify-content-between" data-aos="zoom-out">
+                                      <li>By / Admin</li>
+                                      <li>10 <small>AUG</small></li>
+                                    </ul>
+                                    <p class="text-capitalize" data-aos="zoom-in">The start-up ultimate guide to make your wordpress journel</p>
+                                    <a href="#" class="nav-link text-uppercase" data-aos="zoom-in-up"><span class="d-inline-block bg-info px-1">Read</span><span> More</span></a>
+                                  </div>
+                              </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div data-aos="zoom-in">
+                                <img src="https://images.pexels.com/photos/267401/pexels-photo-267401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="600px" height="400px"/>
+                              </div>
+                              <div class="text-light bg-dark p-5 blog-guides">
+                                <ul class="list-inline d-flex justify-content-between" data-aos="zoom-in">
+                                  <li>By / Admin</li>
+                                  <li>20 <small>AUG</small></li>
+                                </ul>
+                                <p class="text-capitalize" data-aos="zoom-out">The start-up ultimate guide to make your wordpress journel</p>
+                                <a href="#" class="nav-link text-uppercase" data-aos="zoom-in-up"><span class="d-inline-block bg-info px-1">Read</span><span> More</span></a>
+                              </div>
+                          </div>
+                    </div>
+
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+
+          </div>
+        </section>
+        <!--End Ourblog Section-->
+
+        <!--Start NextProject Section-->
+        <section class="py-5 nextprojects">
+          <div class="container py-4">
+            <div class="row py-5">
+                <div class="col-md-7 mb-5 m-auto" data-aos="zoom-in">
+                    <h6 class="ourtitles">Let's Talk</h6>
+                    <p><span class="textfills">About Your </span> <span class="text-uppercase fw-bold text-light">NextProject</span></p>
+                </div>
+                <div class="col-md-5 m-auto" data-aos="zoom-in">
+                   <div class="text-md-end">
+                    <a href="#" class="links ms-auto">Get In Touch</a>
+                   </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <!--End NextProject Section-->
+
+        <!--Start Footer Section-->
+         <footer class="">
+            <div class="container-fluid">
+               <div class="row">
+                <div class="col-lg-6 mx-auto mb-2 text-light p-5">
+                    <h3>avo</h3>
+                    <ul class="list-inline my-4">
+                        <li class="lh-lg">Email : <span class="text-info"> avo.support@gmail.com</span></li>
+                        <li class="lh-lg">Address : <span class="text-info">A32,Ave 15Street , Door 211,San Franciso,USA32493</span></li>
+                        <li class="lh-lg">Phone : <span class="text-info">(+1) 2345 678 44 88</span></li>
+                    </ul>
+                    <p class="follows my-4"><span>foll</span>ow Us</p>
+                    <ol class="socials m-0 p-0">
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.googleplus.com"><i class="fab fa-google-plus"></i></a></li>
+                    </ol>
+                </div>
+
+                <div class="col-lg-6 mx-auto p-5 newsignups">
+                   <div class="newletters text-light py-3">
+                    <h3 class="follows"><span>News</span>latter</h3>
+                    <p class="mt-4 mb-3">Sign up for subscribe out newletter!</p>
+                    <div class="emailbox mb-5">
+                        <input type="email" name="email" class="email" id="email" placeholder="Your Email" autocomplete="off" />
+                        <span><a href="#">subscribe</a></span>
+                    </div>
+                    <h3 class="follows"><span>Instag</span>ram Post</h3>
+                   </div>
+                </div>
+
+               </div>
+            </div>
+         </footer>
+        <!--End Footer Section-->
+
+        <!--Start footerinfo Section-->
+          <section class="bg-dark footerinfos">
+            <div class="container bg-dark py-4">
+               <p class="text-light text-center my-auto">&copy; <span id="year"></span> avo Template . Made width passion by <span class="text-info">ThemesCamp</span></p>
+            </div>
+          </section>
+        <!--End footerinfo Section-->
+
+
+        <!--Start Searchbox Modal box-->
+        <div id="modalactive" class="modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark">
+
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="col-md-12 mx-auto pb-5 search-box">
+                        <input type="text" name="search" id="search" placeholder="search" autocomplete="off" />
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--End Modal Box-->
+
+        <!--Start Modalvideo Section-->
+         <div id="modalvideo" class="modal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content ">
+                    <div class="modal-header bg-black border-0">
+                        <button type="subtton" class="btn-close btn-close-white text-reset" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body text-center bg-black">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/z26zbiGJnd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!--End Modalvideo Section-->
+
+       
+        
+
+
+    <!--bootstrap css1 js1-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!--jquery js1-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+    <!--jqueryui css1 js1-->
+    <script src="./libs/jquery-ui-1.13.1/jquery-ui.min.js" type="text/javascript"></script>
+
+    <!--AOS js1-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+          AOS.init({
+            duration:1100,
+            once:true
+          });
+    </script>
+
+    <!--Swipper css1 js1-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--custom js-->
+    <script src="./js/app.js" type="text/javascript"></script>
+    </body>
+</html>
+
